@@ -43,7 +43,7 @@ B站“萝卜快跑“弹幕爬取+分析
 <img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/clean_danmaku.png" width="680" height="150">
 ### （三）分词和词频统计
 #### 1、源码
-运行 word_frequency.py 脚本，对清洗后的弹幕数据进行分词和词频统计，并将结果保存输出为两个文件：分词后的文件“fenci-danmaku.txt”和词频统计文件“word_frequency——table.csv”。    
+运行 word_frequency.py 脚本，对清洗后的弹幕数据进行分词和词频统计，并将结果保存输出为两个文件：分词后的文件“fenci-danmaku.txt”和词频统计文件“word_frequency_table.csv”。    
 此脚本包括三部分任务：一是删除txt文件中的常用中文词比如那么、他们、不管等，以尽量消除对生成的词云图的影响。第二是对弹幕内容进行分词。第三是进行词频统计。  
 * 停用词库：stopwords.txt
 #### 2、结果
@@ -56,7 +56,8 @@ B站“萝卜快跑“弹幕爬取+分析
 #### 1、源码
 运行 wordcloud.py 脚本，使用词频统计结果生成词云图并保存为HTML文件。  
 #### 2、结果  
-词云图：  
+词云图:  
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/wordcloud.png" width="580" height="450">
 
 #### 数据分析
 通过对B站弹幕数据进行词频统计，我们可以获得用户在讨论萝卜快跑无人驾驶汽车视频时最常提到的词汇。这些词汇反映了用户关注的热点话题和主要观点。以下是对前100个高频词汇的分析。  
@@ -101,6 +102,7 @@ B站“萝卜快跑“弹幕爬取+分析
 * 每条弹幕的情感倾向：  
 <img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/sentiment_analysis_results.png" width="280" height="350">
 * 情感分布图：  
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/sentiment%20distribution.png" width="480" height="450">
 
 #### 数据分析
 ##### 1、数据
