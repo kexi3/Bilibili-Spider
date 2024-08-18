@@ -51,6 +51,7 @@ B站“萝卜快跑“弹幕爬取+分析
 <img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/fenci-danmaku.png" width="680" height="150">
 * 词频统计csv文件
 <img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/word_frequency_table.png" width="280" height="350">
+
 ### （四）生成词云图  
 #### 1、源码
 运行 wordcloud.py 脚本，使用词频统计结果生成词云图并保存为HTML文件。  
