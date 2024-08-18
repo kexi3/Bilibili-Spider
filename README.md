@@ -34,7 +34,7 @@ B站“萝卜快跑“弹幕爬取+分析
 运行 danmu_crawler.py 脚本，根据提示输入视频的oid、开始时间、结束时间和Cookie信息，爬取指定时间范围内（2024.07.01--2024.08.01）的视频弹幕数据并输出文件“danmaku.txt”。  
 #### 2、结果
 提取的弹幕内容:  
-<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/danmaku.png" width="680" height="105">
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/danmaku.png" width="680" height="140">
 
 ### （二）数据清洗
 #### 1、源码
