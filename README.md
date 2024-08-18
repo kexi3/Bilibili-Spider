@@ -50,11 +50,11 @@ B站“萝卜快跑“弹幕爬取+分析
 * 分词后的txt文件:
 <img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/fenci-danmaku.png" width="680" height="150">
 * 词频统计csv文件
-<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/word_frequency_table.png" width="280" height="550">
-### （四）生成词云图
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/word_frequency_table.png" width="280" height="350">
+### （四）生成词云图  
 #### 1、源码
 运行 wordcloud.py 脚本，使用词频统计结果生成词云图并保存为HTML文件。  
-#### 2、结果
+#### 2、结果  
 词云图：  
 
 #### 数据分析
@@ -98,7 +98,7 @@ B站“萝卜快跑“弹幕爬取+分析
 运行 sentiment_analysis.py 脚本和 sentiment_distribution.py 脚本，对弹幕数据进行情感分析，计算平均情感分数并保存分析结果，生成情感分布图并保存为HTML文件。  
 #### 2、结果
 * 每条弹幕的情感倾向：  
-<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/sentiment_analysis_results.png" width="280" height="550">
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/sentiment_analysis_results.png" width="280" height="350">
 * 情感分布图：  
 
 #### 数据分析
