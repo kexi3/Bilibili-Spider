@@ -34,24 +34,23 @@ B站“萝卜快跑“弹幕爬取+分析
 运行 danmu_crawler.py 脚本，根据提示输入视频的oid、开始时间、结束时间和Cookie信息，爬取指定时间范围内（2024.07.01--2024.08.01）的视频弹幕数据并输出文件“danmaku.txt”。  
 #### 2、结果
 提取的弹幕内容:  
-<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/danmaku.png" width="680" height="140">
-
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/danmaku.png" width="680" height="150">
 ### （二）数据清洗
 #### 1、源码
 运行 data_cleaning.py 脚本，对爬取到的弹幕数据进行清洗，去除无效内容并保存为新的文本文件“clean-danmaku.txt”。  
 #### 2、结果
-数据清洗后的txt文件：
-
+数据清洗后的txt文件:  
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/clean_danmaku.png" width="680" height="150">
 ### （三）分词和词频统计
 #### 1、源码
 运行 word_frequency.py 脚本，对清洗后的弹幕数据进行分词和词频统计，并将结果保存输出为两个文件：分词后的文件“fenci-danmaku.txt”和词频统计文件“word_frequency——table.csv”。    
 此脚本包括三部分任务：一是删除txt文件中的常用中文词比如那么、他们、不管等，以尽量消除对生成的词云图的影响。第二是对弹幕内容进行分词。第三是进行词频统计。  
 * 停用词库：stopwords.txt
 #### 2、结果
-* 分词后的txt文件：  
-
+* 分词后的txt文件:
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/fenci-danmaku.png" width="680" height="150">
 * 词频统计csv文件
-
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/word_frequency_table.png" width="280" height="550">
 ### （四）生成词云图
 #### 1、源码
 运行 wordcloud.py 脚本，使用词频统计结果生成词云图并保存为HTML文件。  
@@ -99,7 +98,7 @@ B站“萝卜快跑“弹幕爬取+分析
 运行 sentiment_analysis.py 脚本和 sentiment_distribution.py 脚本，对弹幕数据进行情感分析，计算平均情感分数并保存分析结果，生成情感分布图并保存为HTML文件。  
 #### 2、结果
 * 每条弹幕的情感倾向：  
-
+<img src="https://github.com/kexi3/Bilibili-Spider/blob/main/Inserted%20images/sentiment_analysis_results.png" width="280" height="550">
 * 情感分布图：  
 
 #### 数据分析
